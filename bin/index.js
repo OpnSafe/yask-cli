@@ -11,7 +11,7 @@ const parsePath_1 = __importDefault(require("./parsePath"));
 const colors_1 = __importDefault(require("colors"));
 colors_1.default.enable();
 const options = yargs_1.default
-    .command("install <folder>", "create cache folder and file", () => { }, async (argv) => {
+    .command("init <folder>", "create cache folder and file", () => { }, async (argv) => {
     const _path = path_1.default.join(...(0, parsePath_1.default)(argv.folder));
     if (!fs_1.default.existsSync(_path))
         throw new Error("Path not found.");

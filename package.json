@@ -2,7 +2,7 @@
   "name": "yask-cli",
   "packageManager": "yarn@3.6.3",
   "description": "Yask CLI",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

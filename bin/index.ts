@@ -7,7 +7,7 @@ import colors from 'colors';
 colors.enable();
 
 const options = yargs
-    .command("install <folder>", "create cache folder and file", () => {}, async (argv: any) => {
+    .command("init <folder>", "create cache folder and file", () => {}, async (argv: any) => {
         const _path = path.join(...parsePath(argv.folder));
         if (!fs.existsSync(_path))
             throw new Error("Path not found.");
