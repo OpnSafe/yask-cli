@@ -1,0 +1,23 @@
+{
+  "name": "@yask/cli",
+  "packageManager": "yarn@3.6.3",
+  "description": "Yask CLI",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/index.js"
+  },
+  "author": "OpnSafe",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.0",
+    "@types/yargs": "^17.0.25"
+  },
+  "bin": {
+    "yask": "node ./bin/index.js"
+  }
+}
