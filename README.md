@@ -2,5 +2,5 @@
 
 # Usage
 ```sh
-npx yask install <folder>
+npx yask-cli install <folder>
 ```
